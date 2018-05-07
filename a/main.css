@@ -1,0 +1,89 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: verdana;
+}
+
+body{
+	display: grid;
+	grid-template-columns: 200px 200px 200px 200px 200px;
+  	grid-template-rows: 200px 200px 200px 200px;
+  	grid-template-areas: "uno dos tres tres cuatro"
+  						"cinco seis tres tres siete"
+  						"ocho ocho nueve diez once"
+  						"ocho ocho doce trece catorce";
+  	grid-gap: 20px;
+  	justify-content: center;
+}
+
+
+.uno{
+	grid-area: uno;
+	background-color: lightblue;
+}
+
+.dos{
+	grid-area: dos;
+	background-color: red;
+}
+
+.tres{
+	grid-area: tres;
+	background-color: green;
+}
+
+.cuatro{
+	grid-area: cuatro;
+	background-color: black;
+}
+
+.cinco{
+	grid-area: cinco;
+	background-color: yellow;
+}
+
+.seis{
+	grid-area: seis;
+	background-color: purple;
+}
+
+.siete{
+	grid-area: siete;
+	background-color: pink;
+}
+
+.ocho{
+	grid-area: ocho;
+	background-color: pink;
+}
+
+.nueve{
+	grid-area: nueve;
+	background-color: brown;
+}
+
+.diez{
+	grid-area: diez;
+	background-color: lightgreen;
+}
+
+.once{
+	grid-area: once;
+	background-color: lime;
+}
+
+.doce{
+	grid-area: doce;
+	background-color: orange;
+}
+
+.trece{
+	grid-area: trece;
+	background-color: gray;
+}
+
+.catorce{
+	grid-area: catorce;
+	background-color: red;
+}
